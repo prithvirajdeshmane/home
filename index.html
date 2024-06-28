@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Prithvi's Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <!-- Start: Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-XVJRPSMFHQ"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-XVJRPSMFHQ");
+  </script>
+  <!-- End: Google tag (gtag.js) -->
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="/">Prithviraj Deshmane</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="/">Prithviraj Deshmane</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hamburger-menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="hero">
+      <div class="section__picture-container">
+        <img
+          id="hero-profile-picture"
+          src="./assets/PrithvirajDeshmane_hero-img.jpg"
+          alt="Prithviraj Deshmane profile picture"
+        />
+      </div>
+      <div class="section__intro-text">
+        <p class="section__heading-eyebrow">Hello, I'm</p>
+        <h1 class="section__heading">Prithvi,</h1>
+        <p class="section__heading__jobtitle">a Program Manager</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/PrithvirajDeshmane_Resume.pdf')"
+          >
+            Resume
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Me
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/prithviraj-deshmane-70712b12/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/prithvirajdeshmane'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__heading-eyebrow">Get to know more</p>
+      <h2 class="section__heading">About me</h2>
+      <div class="section-container">
+        <div class="section__picture-container">
+          <img
+            src="assets/about-pic-3.png"
+            alt="Picture for About section"
+            class="section__about-pic"
+          />
+        </div>
+        <div class="section__about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/briefcase.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>15+ years of industry&nbsp;experience</p>
+              <p>All stages of SDLC</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/graduation.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>M.S. Masters in Computer&nbsp;Science</p>
+              <p>B.E. Bachelors in Computer&nbsp;Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              It is so satisfying to build simple, easy-to-use, yet efficient
+              and scalable&nbsp;products!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        src="./assets/arrow.png"
+        alt="Icon to navigate to next section"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__heading-eyebrow">Peep my</p>
+      <h2 class="section__heading">Skill set</h2>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">People Skills</h2>
+            <div class="skills-article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Communication</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Documentation</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Leadership</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mentoring</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Stakeholder Management</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Conflict Resolution</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Technical Skills</h2>
+            <div class="skills-article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Automation</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Analytics</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Accessibility</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        src="./assets/arrow.png"
+        alt="Icon to navigate to next section"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__heading-eyebrow">Explore my</p>
+      <h2 class="section__heading">Experience</h2>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/apple_logo.png"
+                alt="Apple icon"
+                class="experience-img"
+              />
+            </div>
+            <h2 class="skills-sub-title experience-title">Apple</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 experience-btn"
+                onclick="location.href='https://www.apple.com/'"
+              >
+                Apple
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/progressive_logo.png"
+                alt="Progressive Insurance logo"
+                class="experience-img"
+              />
+            </div>
+            <h2 class="skills-sub-title experience-title">
+              Progressive Insurance
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 experience-btn"
+                onclick="location.href='https://www.progressive.com/'"
+              >
+                Progressive
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/gestureMouse.png"
+                alt="3D Gesture Mouse image"
+                class="experience-img"
+              />
+            </div>
+            <h2 class="skills-sub-title experience-title">Thesis: 3D Mouse</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 experience-btn"
+                onclick="location.href='https://sites.google.com/view/3dmouse/home'"
+              >
+                3D Mouse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="icon arrow"
+        src="./assets/arrow.png"
+        alt="Icon to navigate to next section"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <div class="section__heading-eyebrow">How to</div>
+      <h2 class="section__heading">Contact Me</h2>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:prithvirajdeshmane@gmail.com"
+              >prithvirajdeshmane@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/prithviraj-deshmane-70712b12/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#hero">Top</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright © 2024 Prithviraj Deshmane. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
