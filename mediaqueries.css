@@ -112,6 +112,10 @@
   .skills-sub-title {
     font-size: 1.75rem;
   }
+  [data-typewriter] {
+    height: 0.75rem;
+    border-right: 0.3rem solid transparent;
+  }
 }
 
 /* For iPhone SE */
