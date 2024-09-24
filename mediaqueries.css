@@ -53,6 +53,13 @@
   }
 }
 
+/* For non-small viewports, section__intro-text needs min-width */
+@media screen and (min-width: 601px) {
+  .section__intro-text {
+    min-width: 420px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   /* #short-name {
     display: none;
