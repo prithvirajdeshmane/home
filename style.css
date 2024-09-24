@@ -185,6 +185,7 @@ section {
 .section__intro-text {
   align-self: center;
   text-align: center;
+  min-width: 420px;
 }
 
 /* .section__intro-text > * {
