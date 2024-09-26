@@ -312,6 +312,7 @@ h3 {
 .section-container {
   gap: 4rem;
   height: 80%;
+  justify-content: center;
 }
 
 .section__picture-container {
