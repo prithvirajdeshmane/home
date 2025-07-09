@@ -2,7 +2,11 @@
 
 This is a portfolio website for Prithviraj Deshmane
 
-**Usage**: Navigate to [https://prithvirajdeshmane.github.io/home/](https://prithvirajdeshmane.github.io/home/)
+**Usage**: Navigate to either url below
+- [https://prithvirajdeshmane.netlify.app/](https://prithvirajdeshmane.netlify.app/)
+- [https://prithvirajdeshmane.github.io/home/](https://prithvirajdeshmane.github.io/home/)
+
+This repository contains the code for Prithvi Deshmane's personal portfolio website. The website showcases Prithvi's professional experience, skills, and projects, providing an easy way for potential employers and collaborators to learn more about him and get in touch.
 
 **Links that click away from landing page**
 
@@ -10,8 +14,6 @@ This is a portfolio website for Prithviraj Deshmane
 2. Apple Inc. home page
 3. Progressive Casualty Insurance home page
 4. 3D Gesture Mouse - Prithviraj Deshmane's Thesis page
-
-This repository contains the code for Prithvi Deshmane's personal portfolio website. The website showcases Prithvi's professional experience, skills, and projects, providing an easy way for potential employers and collaborators to learn more about him and get in touch.
 
 ## Table of Contents
 
